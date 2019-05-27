@@ -34,7 +34,7 @@ public class CustomThreadPool {
 
     private AtomicInteger totalTask = new AtomicInteger();
 
-    private Object shutDownNotify = new Object();
+    private final Object shutDownNotify = new Object();
 
     private Notify notify;
 
