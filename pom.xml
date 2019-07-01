@@ -38,10 +38,8 @@
     </dependencies>
 
     <build>
-        <pluginManagement>
-            <plugins>
+        <plugins>
 
-            </plugins>
-        </pluginManagement>
+        </plugins>
     </build>
 </project>
